@@ -1,5 +1,5 @@
 {
-  "name": "botkit-adapter-workplace",
+  "name": "botbuilder-adapter-workplace",
   "version": "1.0.0",
   "description": "Botkit adapter for Facebook Workplace",
   "license": "MIT",
