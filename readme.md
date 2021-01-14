@@ -28,7 +28,7 @@ const adapter = new WorkplaceAdapter({
      access_token: process.env.FACEBOOK_ACCESS_TOKEN
 });
 
-adapter.use(new WorkplaceEventTypeMiddleware());
+adapter.use(new FacebookEventTypeMiddleware());
 
 const controller = new Botkit({
     adapter,
